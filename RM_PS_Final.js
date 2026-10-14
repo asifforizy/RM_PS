@@ -80,3 +80,35 @@ var parrotTrouble = function(talking, hour) {
     return false;
   }
 };
+
+// 12
+
+var makes10 = function(a, b) {
+  if (a === 10) {
+    return true;
+  }
+
+  if (b === 10) {
+    return true;
+  }
+
+  if (a + b === 10) {
+    return true;
+  }
+
+  return false;
+};
+
+// 13
+
+var nearHundred = function(n) {
+  if (n >= 90 && n <= 110) {
+    return true;
+  }
+
+  if (n >= 190 && n <= 210) {
+    return true;
+  }
+
+  return false;
+};
