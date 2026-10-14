@@ -112,3 +112,29 @@ var nearHundred = function(n) {
 
   return false;
 };
+
+
+// 14
+var posNeg = function(a, b, negative) {
+  if (negative === true) {
+    if (a < 0) {
+      if (b < 0) {
+        return true;
+      }
+    }
+    return false;
+  } else {
+
+    if (a < 0) {
+      if (b > 0) {
+        return true;
+      }
+    }
+    if (a > 0) {
+      if (b < 0) {
+        return true;
+      }
+    }
+    return false;
+  }
+};
