@@ -138,3 +138,14 @@ var posNeg = function(a, b, negative) {
     return false;
   }
 };
+
+
+// 15
+
+var notString = function(str) {
+  if (str.substring(0, 3) === "not") {
+    return str;
+  } else {
+    return "not " + str;
+  }
+};
