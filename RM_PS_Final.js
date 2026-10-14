@@ -65,3 +65,18 @@ var diff21 = function (n) {
     return n > 21 ? diff * 2 : diff;
 };
 
+// 11
+
+var parrotTrouble = function(talking, hour) {
+  if (talking === true) {
+    if (hour < 7) {
+      return true;
+    } else if (hour > 20) {
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return false;
+  }
+};
